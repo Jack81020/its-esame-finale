@@ -1,0 +1,96 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Open Sans';
+}
+
+nav {
+    background-color: #1d1d1d36;
+    display: flex;
+    justify-content: space-between;
+    color: #cccccc;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    transition: background-color 0.5s;
+    box-shadow: -1px -4px 20px 0px #9e9e9e;
+}
+
+nav:hover {
+    background-color: #1d1d1d;
+}
+
+footer {
+    background-color: #212121;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    z-index: 99;
+    bottom: 0;
+}
+
+#container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+.dettagli {
+    padding: 5px;
+    border: 1px solid aliceblue;
+}
+
+.maxicard {
+    box-shadow: 0px 0px 17px 0px #515050;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #cccccc;
+    padding: 25px;
+    max-width: 50vw;
+}
+
+
+#affollamento {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #affollamento td, #affollamento th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #affollamento tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #affollamento tr:hover {background-color: #ddd;}
+  
+  #affollamento th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
